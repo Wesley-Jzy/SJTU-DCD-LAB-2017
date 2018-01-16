@@ -7,7 +7,9 @@
 
 3.sc是单周期cpu，按照老师给的框架填表和实现in/output功能即可
 
-4.pineline是流水线cpu，在sc的基础上，按照电路图实现，很多部件可以复用sc时的实现
+4.pipeline是流水线cpu，在sc的基础上，按照电路图实现，很多部件可以复用sc时的实现
 
-5.vga-game是自选大作业，实现了一个在vga屏幕上显示的flappy bird游戏
+5.pipeline-test是机考时，实现了考试要求添加指令的版本
+
+6.vga-game是自选大作业，实现了一个在vga屏幕上显示的flappy bird游戏
 
