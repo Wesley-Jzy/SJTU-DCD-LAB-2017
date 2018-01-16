@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at simple_vga_game.v(172): always construct contains both blocking and non-blocking assignments

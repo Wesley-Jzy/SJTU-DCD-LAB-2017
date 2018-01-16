@@ -1,0 +1,7 @@
+main: addi $1, $0, 128 # inport0
+      addi $3, $0, 136 # outport2
+      addi $2, $0, 202 # 11001010
+loop: lw   $4, 0($1)         # input inport0 to $4
+      add  $6, $4, $2        # hamd inport0 with 11001010 to $6
+      sw   $6, 0($3)         # output result to outport2
+      j loop

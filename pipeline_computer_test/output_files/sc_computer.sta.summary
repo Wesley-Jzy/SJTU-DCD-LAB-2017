@@ -1,0 +1,149 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'clock_and_mem_clock:inst|clock_out'
+Slack : -44.153
+TNS   : -10316.174
+
+Type  : Slow 1100mV 85C Model Setup 'pipeline_computer_main:inst4|pipeemreg:em_reg|malu[3]'
+Slack : -5.233
+TNS   : -40.525
+
+Type  : Slow 1100mV 85C Model Setup 'clk'
+Slack : -4.418
+TNS   : -529.713
+
+Type  : Slow 1100mV 85C Model Hold 'clock_and_mem_clock:inst|clock_out'
+Slack : -3.176
+TNS   : -109.465
+
+Type  : Slow 1100mV 85C Model Hold 'clk'
+Slack : -1.642
+TNS   : -129.563
+
+Type  : Slow 1100mV 85C Model Hold 'pipeline_computer_main:inst4|pipeemreg:em_reg|malu[3]'
+Slack : 1.026
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clock_and_mem_clock:inst|clock_out'
+Slack : -2.174
+TNS   : -824.555
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -2.174
+TNS   : -221.923
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'pipeline_computer_main:inst4|pipeemreg:em_reg|malu[3]'
+Slack : 0.248
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'clock_and_mem_clock:inst|clock_out'
+Slack : -44.977
+TNS   : -10452.329
+
+Type  : Slow 1100mV 0C Model Setup 'pipeline_computer_main:inst4|pipeemreg:em_reg|malu[3]'
+Slack : -5.206
+TNS   : -40.299
+
+Type  : Slow 1100mV 0C Model Setup 'clk'
+Slack : -4.196
+TNS   : -498.922
+
+Type  : Slow 1100mV 0C Model Hold 'clock_and_mem_clock:inst|clock_out'
+Slack : -3.134
+TNS   : -104.752
+
+Type  : Slow 1100mV 0C Model Hold 'clk'
+Slack : -1.796
+TNS   : -144.648
+
+Type  : Slow 1100mV 0C Model Hold 'pipeline_computer_main:inst4|pipeemreg:em_reg|malu[3]'
+Slack : 1.006
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clock_and_mem_clock:inst|clock_out'
+Slack : -2.174
+TNS   : -828.614
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -2.174
+TNS   : -225.753
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'pipeline_computer_main:inst4|pipeemreg:em_reg|malu[3]'
+Slack : 0.230
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'clock_and_mem_clock:inst|clock_out'
+Slack : -24.846
+TNS   : -5939.670
+
+Type  : Fast 1100mV 85C Model Setup 'pipeline_computer_main:inst4|pipeemreg:em_reg|malu[3]'
+Slack : -2.378
+TNS   : -17.916
+
+Type  : Fast 1100mV 85C Model Setup 'clk'
+Slack : -2.138
+TNS   : -252.660
+
+Type  : Fast 1100mV 85C Model Hold 'clock_and_mem_clock:inst|clock_out'
+Slack : -1.593
+TNS   : -61.213
+
+Type  : Fast 1100mV 85C Model Hold 'clk'
+Slack : -0.897
+TNS   : -70.128
+
+Type  : Fast 1100mV 85C Model Hold 'pipeline_computer_main:inst4|pipeemreg:em_reg|malu[3]'
+Slack : 0.356
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -2.174
+TNS   : -176.410
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clock_and_mem_clock:inst|clock_out'
+Slack : -2.174
+TNS   : -102.452
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'pipeline_computer_main:inst4|pipeemreg:em_reg|malu[3]'
+Slack : 0.242
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'clock_and_mem_clock:inst|clock_out'
+Slack : -23.138
+TNS   : -5508.421
+
+Type  : Fast 1100mV 0C Model Setup 'pipeline_computer_main:inst4|pipeemreg:em_reg|malu[3]'
+Slack : -2.276
+TNS   : -17.240
+
+Type  : Fast 1100mV 0C Model Setup 'clk'
+Slack : -1.931
+TNS   : -228.357
+
+Type  : Fast 1100mV 0C Model Hold 'clock_and_mem_clock:inst|clock_out'
+Slack : -1.613
+TNS   : -61.756
+
+Type  : Fast 1100mV 0C Model Hold 'clk'
+Slack : -0.951
+TNS   : -80.133
+
+Type  : Fast 1100mV 0C Model Hold 'pipeline_computer_main:inst4|pipeemreg:em_reg|malu[3]'
+Slack : 0.391
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -2.174
+TNS   : -176.154
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clock_and_mem_clock:inst|clock_out'
+Slack : -2.174
+TNS   : -102.315
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'pipeline_computer_main:inst4|pipeemreg:em_reg|malu[3]'
+Slack : 0.278
+TNS   : 0.000
+
+------------------------------------------------------------

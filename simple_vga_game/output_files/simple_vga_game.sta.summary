@@ -1,0 +1,197 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'clk_200ms'
+Slack : -27.680
+TNS   : -1495.720
+
+Type  : Slow 1100mV 85C Model Setup 'clk_25M'
+Slack : -9.832
+TNS   : -472.039
+
+Type  : Slow 1100mV 85C Model Setup 'clk'
+Slack : -2.451
+TNS   : -72.947
+
+Type  : Slow 1100mV 85C Model Setup 'up'
+Slack : -0.845
+TNS   : -5.600
+
+Type  : Slow 1100mV 85C Model Hold 'clk_200ms'
+Slack : -3.765
+TNS   : -341.941
+
+Type  : Slow 1100mV 85C Model Hold 'up'
+Slack : -1.783
+TNS   : -12.494
+
+Type  : Slow 1100mV 85C Model Hold 'clk'
+Slack : -1.639
+TNS   : -2.978
+
+Type  : Slow 1100mV 85C Model Hold 'clk_25M'
+Slack : 0.492
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -0.690
+TNS   : -18.487
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clk_200ms'
+Slack : -0.394
+TNS   : -71.835
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clk_25M'
+Slack : -0.394
+TNS   : -46.644
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'up'
+Slack : -0.394
+TNS   : -4.586
+
+Type  : Slow 1100mV 0C Model Setup 'clk_200ms'
+Slack : -27.555
+TNS   : -1510.349
+
+Type  : Slow 1100mV 0C Model Setup 'clk_25M'
+Slack : -9.887
+TNS   : -471.088
+
+Type  : Slow 1100mV 0C Model Setup 'clk'
+Slack : -2.548
+TNS   : -72.556
+
+Type  : Slow 1100mV 0C Model Setup 'up'
+Slack : -0.950
+TNS   : -6.336
+
+Type  : Slow 1100mV 0C Model Hold 'clk_200ms'
+Slack : -3.787
+TNS   : -352.481
+
+Type  : Slow 1100mV 0C Model Hold 'up'
+Slack : -1.868
+TNS   : -13.212
+
+Type  : Slow 1100mV 0C Model Hold 'clk'
+Slack : -1.314
+TNS   : -2.622
+
+Type  : Slow 1100mV 0C Model Hold 'clk_25M'
+Slack : 0.482
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -0.715
+TNS   : -20.083
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clk_200ms'
+Slack : -0.394
+TNS   : -72.813
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clk_25M'
+Slack : -0.394
+TNS   : -46.311
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'up'
+Slack : -0.394
+TNS   : -4.961
+
+Type  : Fast 1100mV 85C Model Setup 'clk_200ms'
+Slack : -15.655
+TNS   : -816.641
+
+Type  : Fast 1100mV 85C Model Setup 'clk_25M'
+Slack : -5.433
+TNS   : -249.359
+
+Type  : Fast 1100mV 85C Model Setup 'clk'
+Slack : -1.077
+TNS   : -29.929
+
+Type  : Fast 1100mV 85C Model Setup 'up'
+Slack : 0.053
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'clk_200ms'
+Slack : -2.212
+TNS   : -195.385
+
+Type  : Fast 1100mV 85C Model Hold 'up'
+Slack : -1.055
+TNS   : -7.947
+
+Type  : Fast 1100mV 85C Model Hold 'clk'
+Slack : -0.695
+TNS   : -1.310
+
+Type  : Fast 1100mV 85C Model Hold 'clk_25M'
+Slack : 0.212
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -0.641
+TNS   : -4.535
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'up'
+Slack : -0.080
+TNS   : -0.716
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clk_25M'
+Slack : -0.015
+TNS   : -0.158
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clk_200ms'
+Slack : 0.141
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'clk_200ms'
+Slack : -14.445
+TNS   : -756.353
+
+Type  : Fast 1100mV 0C Model Setup 'clk_25M'
+Slack : -5.146
+TNS   : -235.215
+
+Type  : Fast 1100mV 0C Model Setup 'clk'
+Slack : -1.074
+TNS   : -26.019
+
+Type  : Fast 1100mV 0C Model Setup 'up'
+Slack : 0.074
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'clk_200ms'
+Slack : -2.227
+TNS   : -202.210
+
+Type  : Fast 1100mV 0C Model Hold 'up'
+Slack : -1.101
+TNS   : -8.324
+
+Type  : Fast 1100mV 0C Model Hold 'clk'
+Slack : -0.718
+TNS   : -1.235
+
+Type  : Fast 1100mV 0C Model Hold 'clk_25M'
+Slack : 0.184
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -0.628
+TNS   : -4.486
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'up'
+Slack : -0.082
+TNS   : -0.734
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clk_25M'
+Slack : 0.016
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clk_200ms'
+Slack : 0.136
+TNS   : 0.000
+
+------------------------------------------------------------

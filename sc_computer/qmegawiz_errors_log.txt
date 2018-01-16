@@ -1,0 +1,6 @@
+
+
+C:/fpgaProject/sc_computer/lpm_rom_irom.v
+
+Dec 07 09PM:19:38>: Megafunction LPM_ROM is not listed in any 
+wizard.lst file in the specified library path(s).Wizard launch aborted

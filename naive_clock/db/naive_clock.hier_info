@@ -1,0 +1,269 @@
+|naive_clock
+hex0[0] <= stopwatch:inst.hex0[0]
+hex0[1] <= stopwatch:inst.hex0[1]
+hex0[2] <= stopwatch:inst.hex0[2]
+hex0[3] <= stopwatch:inst.hex0[3]
+hex0[4] <= stopwatch:inst.hex0[4]
+hex0[5] <= stopwatch:inst.hex0[5]
+hex0[6] <= stopwatch:inst.hex0[6]
+CLOCK_50 => stopwatch:inst.CLOCK_50
+KEY[0] => stopwatch:inst.key_reset
+KEY[1] => stopwatch:inst.key_start_pause
+KEY[2] => stopwatch:inst.key_display_stop
+hex1[0] <= stopwatch:inst.hex1[0]
+hex1[1] <= stopwatch:inst.hex1[1]
+hex1[2] <= stopwatch:inst.hex1[2]
+hex1[3] <= stopwatch:inst.hex1[3]
+hex1[4] <= stopwatch:inst.hex1[4]
+hex1[5] <= stopwatch:inst.hex1[5]
+hex1[6] <= stopwatch:inst.hex1[6]
+hex2[0] <= stopwatch:inst.hex2[0]
+hex2[1] <= stopwatch:inst.hex2[1]
+hex2[2] <= stopwatch:inst.hex2[2]
+hex2[3] <= stopwatch:inst.hex2[3]
+hex2[4] <= stopwatch:inst.hex2[4]
+hex2[5] <= stopwatch:inst.hex2[5]
+hex2[6] <= stopwatch:inst.hex2[6]
+hex3[0] <= stopwatch:inst.hex3[0]
+hex3[1] <= stopwatch:inst.hex3[1]
+hex3[2] <= stopwatch:inst.hex3[2]
+hex3[3] <= stopwatch:inst.hex3[3]
+hex3[4] <= stopwatch:inst.hex3[4]
+hex3[5] <= stopwatch:inst.hex3[5]
+hex3[6] <= stopwatch:inst.hex3[6]
+hex4[0] <= stopwatch:inst.hex4[0]
+hex4[1] <= stopwatch:inst.hex4[1]
+hex4[2] <= stopwatch:inst.hex4[2]
+hex4[3] <= stopwatch:inst.hex4[3]
+hex4[4] <= stopwatch:inst.hex4[4]
+hex4[5] <= stopwatch:inst.hex4[5]
+hex4[6] <= stopwatch:inst.hex4[6]
+hex5[0] <= stopwatch:inst.hex5[0]
+hex5[1] <= stopwatch:inst.hex5[1]
+hex5[2] <= stopwatch:inst.hex5[2]
+hex5[3] <= stopwatch:inst.hex5[3]
+hex5[4] <= stopwatch:inst.hex5[4]
+hex5[5] <= stopwatch:inst.hex5[5]
+hex5[6] <= stopwatch:inst.hex5[6]
+
+
+|naive_clock|stopwatch:inst
+CLOCK_50 => CLOCK_40HZ.CLK
+CLOCK_50 => counter_250M[0].CLK
+CLOCK_50 => counter_250M[1].CLK
+CLOCK_50 => counter_250M[2].CLK
+CLOCK_50 => counter_250M[3].CLK
+CLOCK_50 => counter_250M[4].CLK
+CLOCK_50 => counter_250M[5].CLK
+CLOCK_50 => counter_250M[6].CLK
+CLOCK_50 => counter_250M[7].CLK
+CLOCK_50 => counter_250M[8].CLK
+CLOCK_50 => counter_250M[9].CLK
+CLOCK_50 => counter_250M[10].CLK
+CLOCK_50 => counter_250M[11].CLK
+CLOCK_50 => counter_250M[12].CLK
+CLOCK_50 => counter_250M[13].CLK
+CLOCK_50 => counter_250M[14].CLK
+CLOCK_50 => counter_250M[15].CLK
+CLOCK_50 => counter_250M[16].CLK
+CLOCK_50 => counter_250M[17].CLK
+CLOCK_50 => counter_250M[18].CLK
+CLOCK_50 => counter_250M[19].CLK
+CLOCK_50 => counter_250M[20].CLK
+CLOCK_50 => counter_250M[21].CLK
+CLOCK_50 => counter_250M[22].CLK
+CLOCK_50 => counter_250M[23].CLK
+CLOCK_50 => counter_250M[24].CLK
+CLOCK_50 => counter_250M[25].CLK
+CLOCK_50 => counter_250M[26].CLK
+CLOCK_50 => counter_250M[27].CLK
+CLOCK_50 => counter_250M[28].CLK
+CLOCK_50 => counter_250M[29].CLK
+CLOCK_50 => counter_250M[30].CLK
+CLOCK_50 => counter_250M[31].CLK
+CLOCK_50 => CLOCK_100HZ.CLK
+CLOCK_50 => counter_50M[0].CLK
+CLOCK_50 => counter_50M[1].CLK
+CLOCK_50 => counter_50M[2].CLK
+CLOCK_50 => counter_50M[3].CLK
+CLOCK_50 => counter_50M[4].CLK
+CLOCK_50 => counter_50M[5].CLK
+CLOCK_50 => counter_50M[6].CLK
+CLOCK_50 => counter_50M[7].CLK
+CLOCK_50 => counter_50M[8].CLK
+CLOCK_50 => counter_50M[9].CLK
+CLOCK_50 => counter_50M[10].CLK
+CLOCK_50 => counter_50M[11].CLK
+CLOCK_50 => counter_50M[12].CLK
+CLOCK_50 => counter_50M[13].CLK
+CLOCK_50 => counter_50M[14].CLK
+CLOCK_50 => counter_50M[15].CLK
+CLOCK_50 => counter_50M[16].CLK
+CLOCK_50 => counter_50M[17].CLK
+CLOCK_50 => counter_50M[18].CLK
+CLOCK_50 => counter_50M[19].CLK
+CLOCK_50 => counter_50M[20].CLK
+CLOCK_50 => counter_50M[21].CLK
+CLOCK_50 => counter_50M[22].CLK
+CLOCK_50 => counter_50M[23].CLK
+CLOCK_50 => counter_50M[24].CLK
+CLOCK_50 => counter_50M[25].CLK
+CLOCK_50 => counter_50M[26].CLK
+CLOCK_50 => counter_50M[27].CLK
+CLOCK_50 => counter_50M[28].CLK
+CLOCK_50 => counter_50M[29].CLK
+CLOCK_50 => counter_50M[30].CLK
+CLOCK_50 => counter_50M[31].CLK
+key_reset => key_reset.IN2
+key_start_pause => key_start_pause.IN1
+key_display_stop => key_display_stop.IN1
+hex0[0] <= sevenseg:LED8_msecond_display_low.port1
+hex0[1] <= sevenseg:LED8_msecond_display_low.port1
+hex0[2] <= sevenseg:LED8_msecond_display_low.port1
+hex0[3] <= sevenseg:LED8_msecond_display_low.port1
+hex0[4] <= sevenseg:LED8_msecond_display_low.port1
+hex0[5] <= sevenseg:LED8_msecond_display_low.port1
+hex0[6] <= sevenseg:LED8_msecond_display_low.port1
+hex1[0] <= sevenseg:LED8_msecond_display_high.port1
+hex1[1] <= sevenseg:LED8_msecond_display_high.port1
+hex1[2] <= sevenseg:LED8_msecond_display_high.port1
+hex1[3] <= sevenseg:LED8_msecond_display_high.port1
+hex1[4] <= sevenseg:LED8_msecond_display_high.port1
+hex1[5] <= sevenseg:LED8_msecond_display_high.port1
+hex1[6] <= sevenseg:LED8_msecond_display_high.port1
+hex2[0] <= sevenseg:LED8_second_display_low.port1
+hex2[1] <= sevenseg:LED8_second_display_low.port1
+hex2[2] <= sevenseg:LED8_second_display_low.port1
+hex2[3] <= sevenseg:LED8_second_display_low.port1
+hex2[4] <= sevenseg:LED8_second_display_low.port1
+hex2[5] <= sevenseg:LED8_second_display_low.port1
+hex2[6] <= sevenseg:LED8_second_display_low.port1
+hex3[0] <= sevenseg:LED8_second_display_high.port1
+hex3[1] <= sevenseg:LED8_second_display_high.port1
+hex3[2] <= sevenseg:LED8_second_display_high.port1
+hex3[3] <= sevenseg:LED8_second_display_high.port1
+hex3[4] <= sevenseg:LED8_second_display_high.port1
+hex3[5] <= sevenseg:LED8_second_display_high.port1
+hex3[6] <= sevenseg:LED8_second_display_high.port1
+hex4[0] <= sevenseg:LED8_minute_display_low.port1
+hex4[1] <= sevenseg:LED8_minute_display_low.port1
+hex4[2] <= sevenseg:LED8_minute_display_low.port1
+hex4[3] <= sevenseg:LED8_minute_display_low.port1
+hex4[4] <= sevenseg:LED8_minute_display_low.port1
+hex4[5] <= sevenseg:LED8_minute_display_low.port1
+hex4[6] <= sevenseg:LED8_minute_display_low.port1
+hex5[0] <= sevenseg:LED8_minute_display_high.port1
+hex5[1] <= sevenseg:LED8_minute_display_high.port1
+hex5[2] <= sevenseg:LED8_minute_display_high.port1
+hex5[3] <= sevenseg:LED8_minute_display_high.port1
+hex5[4] <= sevenseg:LED8_minute_display_high.port1
+hex5[5] <= sevenseg:LED8_minute_display_high.port1
+hex5[6] <= sevenseg:LED8_minute_display_high.port1
+
+
+|naive_clock|stopwatch:inst|sevenseg:LED8_minute_display_high
+data[0] => Decoder0.IN3
+data[1] => Decoder0.IN2
+data[2] => Decoder0.IN1
+data[3] => Decoder0.IN0
+ledsegments[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+ledsegments[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+ledsegments[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+ledsegments[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+ledsegments[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+ledsegments[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+ledsegments[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|naive_clock|stopwatch:inst|sevenseg:LED8_minute_display_low
+data[0] => Decoder0.IN3
+data[1] => Decoder0.IN2
+data[2] => Decoder0.IN1
+data[3] => Decoder0.IN0
+ledsegments[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+ledsegments[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+ledsegments[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+ledsegments[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+ledsegments[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+ledsegments[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+ledsegments[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|naive_clock|stopwatch:inst|sevenseg:LED8_second_display_high
+data[0] => Decoder0.IN3
+data[1] => Decoder0.IN2
+data[2] => Decoder0.IN1
+data[3] => Decoder0.IN0
+ledsegments[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+ledsegments[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+ledsegments[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+ledsegments[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+ledsegments[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+ledsegments[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+ledsegments[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|naive_clock|stopwatch:inst|sevenseg:LED8_second_display_low
+data[0] => Decoder0.IN3
+data[1] => Decoder0.IN2
+data[2] => Decoder0.IN1
+data[3] => Decoder0.IN0
+ledsegments[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+ledsegments[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+ledsegments[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+ledsegments[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+ledsegments[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+ledsegments[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+ledsegments[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|naive_clock|stopwatch:inst|sevenseg:LED8_msecond_display_high
+data[0] => Decoder0.IN3
+data[1] => Decoder0.IN2
+data[2] => Decoder0.IN1
+data[3] => Decoder0.IN0
+ledsegments[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+ledsegments[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+ledsegments[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+ledsegments[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+ledsegments[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+ledsegments[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+ledsegments[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|naive_clock|stopwatch:inst|sevenseg:LED8_msecond_display_low
+data[0] => Decoder0.IN3
+data[1] => Decoder0.IN2
+data[2] => Decoder0.IN1
+data[3] => Decoder0.IN0
+ledsegments[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+ledsegments[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+ledsegments[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+ledsegments[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+ledsegments[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+ledsegments[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+ledsegments[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|naive_clock|stopwatch:inst|eliminate_jitter:ej_counter
+CLOCK => key_prepre.CLK
+CLOCK => key_pre.CLK
+CLOCK => key_now.CLK
+RESET => key_now.OUTPUTSELECT
+RESET => key_pre.OUTPUTSELECT
+RESET => key_prepre.OUTPUTSELECT
+key_in => key_now.DATAA
+key_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|naive_clock|stopwatch:inst|eliminate_jitter:ej_display
+CLOCK => key_prepre.CLK
+CLOCK => key_pre.CLK
+CLOCK => key_now.CLK
+RESET => key_now.OUTPUTSELECT
+RESET => key_pre.OUTPUTSELECT
+RESET => key_prepre.OUTPUTSELECT
+key_in => key_now.DATAA
+key_out <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+

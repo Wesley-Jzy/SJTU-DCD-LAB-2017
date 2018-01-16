@@ -1,0 +1,149 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'clock_and_mem_clock:inst|clock_out'
+Slack : -22.160
+TNS   : -22528.117
+
+Type  : Slow 1100mV 85C Model Setup 'sc_computer_main:inst4|sc_cpu:cpu|regfile:rf|register[10][0]'
+Slack : -18.711
+TNS   : -89.863
+
+Type  : Slow 1100mV 85C Model Setup 'clk'
+Slack : -15.637
+TNS   : -2090.835
+
+Type  : Slow 1100mV 85C Model Hold 'clk'
+Slack : -7.312
+TNS   : -703.537
+
+Type  : Slow 1100mV 85C Model Hold 'sc_computer_main:inst4|sc_cpu:cpu|regfile:rf|register[10][0]'
+Slack : -6.223
+TNS   : -29.047
+
+Type  : Slow 1100mV 85C Model Hold 'clock_and_mem_clock:inst|clock_out'
+Slack : -3.455
+TNS   : -1148.087
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'sc_computer_main:inst4|sc_cpu:cpu|regfile:rf|register[10][0]'
+Slack : -5.703
+TNS   : -830.547
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clock_and_mem_clock:inst|clock_out'
+Slack : -2.174
+TNS   : -801.167
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -2.174
+TNS   : -281.939
+
+Type  : Slow 1100mV 0C Model Setup 'clock_and_mem_clock:inst|clock_out'
+Slack : -22.419
+TNS   : -22648.677
+
+Type  : Slow 1100mV 0C Model Setup 'sc_computer_main:inst4|sc_cpu:cpu|regfile:rf|register[10][0]'
+Slack : -18.894
+TNS   : -90.684
+
+Type  : Slow 1100mV 0C Model Setup 'clk'
+Slack : -15.975
+TNS   : -2128.345
+
+Type  : Slow 1100mV 0C Model Hold 'clk'
+Slack : -7.155
+TNS   : -683.550
+
+Type  : Slow 1100mV 0C Model Hold 'sc_computer_main:inst4|sc_cpu:cpu|regfile:rf|register[10][0]'
+Slack : -6.265
+TNS   : -29.051
+
+Type  : Slow 1100mV 0C Model Hold 'clock_and_mem_clock:inst|clock_out'
+Slack : -3.416
+TNS   : -1061.266
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'sc_computer_main:inst4|sc_cpu:cpu|regfile:rf|register[10][0]'
+Slack : -5.700
+TNS   : -838.514
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clock_and_mem_clock:inst|clock_out'
+Slack : -2.174
+TNS   : -798.520
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -2.174
+TNS   : -291.173
+
+Type  : Fast 1100mV 85C Model Setup 'clock_and_mem_clock:inst|clock_out'
+Slack : -14.594
+TNS   : -14679.908
+
+Type  : Fast 1100mV 85C Model Setup 'sc_computer_main:inst4|sc_cpu:cpu|regfile:rf|register[10][0]'
+Slack : -12.699
+TNS   : -60.923
+
+Type  : Fast 1100mV 85C Model Setup 'clk'
+Slack : -11.276
+TNS   : -1490.248
+
+Type  : Fast 1100mV 85C Model Hold 'clk'
+Slack : -4.198
+TNS   : -383.982
+
+Type  : Fast 1100mV 85C Model Hold 'sc_computer_main:inst4|sc_cpu:cpu|regfile:rf|register[10][0]'
+Slack : -3.521
+TNS   : -16.439
+
+Type  : Fast 1100mV 85C Model Hold 'clock_and_mem_clock:inst|clock_out'
+Slack : -1.952
+TNS   : -516.755
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'sc_computer_main:inst4|sc_cpu:cpu|regfile:rf|register[10][0]'
+Slack : -3.733
+TNS   : -425.227
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -2.174
+TNS   : -306.375
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clock_and_mem_clock:inst|clock_out'
+Slack : -2.174
+TNS   : -187.422
+
+Type  : Fast 1100mV 0C Model Setup 'clock_and_mem_clock:inst|clock_out'
+Slack : -13.673
+TNS   : -13745.912
+
+Type  : Fast 1100mV 0C Model Setup 'sc_computer_main:inst4|sc_cpu:cpu|regfile:rf|register[10][0]'
+Slack : -11.935
+TNS   : -57.284
+
+Type  : Fast 1100mV 0C Model Setup 'clk'
+Slack : -10.577
+TNS   : -1394.666
+
+Type  : Fast 1100mV 0C Model Hold 'clk'
+Slack : -4.068
+TNS   : -375.285
+
+Type  : Fast 1100mV 0C Model Hold 'sc_computer_main:inst4|sc_cpu:cpu|regfile:rf|register[10][0]'
+Slack : -3.289
+TNS   : -15.333
+
+Type  : Fast 1100mV 0C Model Hold 'clock_and_mem_clock:inst|clock_out'
+Slack : -1.986
+TNS   : -594.115
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'sc_computer_main:inst4|sc_cpu:cpu|regfile:rf|register[10][0]'
+Slack : -3.415
+TNS   : -377.901
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -2.174
+TNS   : -303.162
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clock_and_mem_clock:inst|clock_out'
+Slack : -2.174
+TNS   : -167.619
+
+------------------------------------------------------------

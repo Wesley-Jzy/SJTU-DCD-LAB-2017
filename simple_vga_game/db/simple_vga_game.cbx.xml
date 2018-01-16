@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="simple_vga_game">
+		<CBX_INST_ENTRY INSTANCE_NAME="|simple_vga_game|out_port_seg:historyScoreboard|lpm_divide:Div0" CBX_FILE_NAME="lpm_divide_ibm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|simple_vga_game|out_port_seg:historyScoreboard|lpm_divide:Mod1" CBX_FILE_NAME="lpm_divide_l3m.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|simple_vga_game|out_port_seg:scoreboard|lpm_divide:Div0" CBX_FILE_NAME="lpm_divide_ibm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|simple_vga_game|out_port_seg:scoreboard|lpm_divide:Mod1" CBX_FILE_NAME="lpm_divide_l3m.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|simple_vga_game|out_port_seg:historyScoreboard|lpm_divide:Mod0" CBX_FILE_NAME="lpm_divide_l3m.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|simple_vga_game|out_port_seg:scoreboard|lpm_divide:Mod0" CBX_FILE_NAME="lpm_divide_l3m.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

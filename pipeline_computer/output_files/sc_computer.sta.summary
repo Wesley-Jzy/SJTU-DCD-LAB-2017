@@ -1,0 +1,149 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'clock_and_mem_clock:inst|clock_out'
+Slack : -12.438
+TNS   : -6116.106
+
+Type  : Slow 1100mV 85C Model Setup 'pipeline_computer_main:inst4|pipeemreg:em_reg|malu[3]'
+Slack : -5.074
+TNS   : -23.986
+
+Type  : Slow 1100mV 85C Model Setup 'clk'
+Slack : -3.516
+TNS   : -460.330
+
+Type  : Slow 1100mV 85C Model Hold 'clock_and_mem_clock:inst|clock_out'
+Slack : -2.811
+TNS   : -86.875
+
+Type  : Slow 1100mV 85C Model Hold 'clk'
+Slack : -1.881
+TNS   : -145.421
+
+Type  : Slow 1100mV 85C Model Hold 'pipeline_computer_main:inst4|pipeemreg:em_reg|malu[3]'
+Slack : 1.060
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clock_and_mem_clock:inst|clock_out'
+Slack : -2.174
+TNS   : -1011.352
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -2.174
+TNS   : -222.739
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'pipeline_computer_main:inst4|pipeemreg:em_reg|malu[3]'
+Slack : 0.315
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'clock_and_mem_clock:inst|clock_out'
+Slack : -12.412
+TNS   : -6156.928
+
+Type  : Slow 1100mV 0C Model Setup 'pipeline_computer_main:inst4|pipeemreg:em_reg|malu[3]'
+Slack : -5.054
+TNS   : -23.830
+
+Type  : Slow 1100mV 0C Model Setup 'clk'
+Slack : -3.339
+TNS   : -433.288
+
+Type  : Slow 1100mV 0C Model Hold 'clock_and_mem_clock:inst|clock_out'
+Slack : -2.752
+TNS   : -84.065
+
+Type  : Slow 1100mV 0C Model Hold 'clk'
+Slack : -2.027
+TNS   : -160.266
+
+Type  : Slow 1100mV 0C Model Hold 'pipeline_computer_main:inst4|pipeemreg:em_reg|malu[3]'
+Slack : 1.041
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clock_and_mem_clock:inst|clock_out'
+Slack : -2.174
+TNS   : -1097.072
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -2.174
+TNS   : -226.338
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'pipeline_computer_main:inst4|pipeemreg:em_reg|malu[3]'
+Slack : 0.302
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'clock_and_mem_clock:inst|clock_out'
+Slack : -7.463
+TNS   : -3628.940
+
+Type  : Fast 1100mV 85C Model Setup 'pipeline_computer_main:inst4|pipeemreg:em_reg|malu[3]'
+Slack : -2.328
+TNS   : -10.869
+
+Type  : Fast 1100mV 85C Model Setup 'clk'
+Slack : -1.931
+TNS   : -222.633
+
+Type  : Fast 1100mV 85C Model Hold 'clock_and_mem_clock:inst|clock_out'
+Slack : -1.454
+TNS   : -48.097
+
+Type  : Fast 1100mV 85C Model Hold 'clk'
+Slack : -1.136
+TNS   : -83.435
+
+Type  : Fast 1100mV 85C Model Hold 'pipeline_computer_main:inst4|pipeemreg:em_reg|malu[3]'
+Slack : 0.494
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -2.174
+TNS   : -176.794
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clock_and_mem_clock:inst|clock_out'
+Slack : -2.174
+TNS   : -101.620
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'pipeline_computer_main:inst4|pipeemreg:em_reg|malu[3]'
+Slack : 0.384
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'clock_and_mem_clock:inst|clock_out'
+Slack : -6.935
+TNS   : -3349.310
+
+Type  : Fast 1100mV 0C Model Setup 'pipeline_computer_main:inst4|pipeemreg:em_reg|malu[3]'
+Slack : -2.244
+TNS   : -10.532
+
+Type  : Fast 1100mV 0C Model Setup 'clk'
+Slack : -1.753
+TNS   : -202.983
+
+Type  : Fast 1100mV 0C Model Hold 'clock_and_mem_clock:inst|clock_out'
+Slack : -1.481
+TNS   : -51.240
+
+Type  : Fast 1100mV 0C Model Hold 'clk'
+Slack : -1.186
+TNS   : -92.553
+
+Type  : Fast 1100mV 0C Model Hold 'pipeline_computer_main:inst4|pipeemreg:em_reg|malu[3]'
+Slack : 0.529
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -2.174
+TNS   : -176.617
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clock_and_mem_clock:inst|clock_out'
+Slack : -2.174
+TNS   : -101.594
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'pipeline_computer_main:inst4|pipeemreg:em_reg|malu[3]'
+Slack : 0.393
+TNS   : 0.000
+
+------------------------------------------------------------
